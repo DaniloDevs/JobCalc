@@ -1,0 +1,231 @@
+
+
+/* Estrutura */
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--gray-100);
+}
+
+.content {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--gray-600);
+  height: 35vh;
+  color: white;
+  font-family: inter, sans-serif;
+}
+
+#menu {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid var(--gray-400);
+}
+
+#logo {
+  height: 48px;
+}
+
+#hrslivre {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#hrslivre svg {
+  color: var(--orange-500);
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#profile img {
+  width: 70px;
+  border-radius: 50%;
+  border: 3px solid var(--orange-500);
+}
+
+#profile div {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+#profile div h1 {
+  font-size: 1rem;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+#profile div span {
+  font-size: 0.875rem;
+  color: var(--gray-400);
+}
+
+#profile div span:hover {
+  color: var(--orange-500);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+
+
+/* segunda parte */
+
+#summary {
+  padding: 5px;
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#posição {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+#valores {
+  display: flex;
+  gap: 1rem;
+}
+
+#valores span {
+  font-family: inter, sans-serif;
+  font-weight: 700;
+  color: var(--gray-100);
+  font-size: 1.2rem;
+}
+
+#valores h2 {
+  font-family: inter, sans-serif;
+  font-size: 0.875rem;
+  color: var(--gray-300);
+}
+
+#new_job {
+  color: var(--white);
+  text-align: center;
+  gap: 1rem;
+  background-color: var(--orange-500);
+  font-family: "IBM Plex Sans", sans-serif;
+
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+#new_job svg {
+  background-color: var(--orange-400);
+  border-radius: 5px;
+}
+
+#new_job:hover {
+  background-color: var(--orange-400);
+}
+
+#job_list {
+  margin-top: -2rem;
+  width: 100%;
+  background-color: var(--gray-100);
+  border-radius: 10px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+table tr {
+  display: grid;
+  grid-template-columns: 5% 30% 20% 15% 20% 10%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+  border: var(--gray-100);
+  background-color: var(--gray-200);
+}
+
+#job_list .id {
+  font-weight: 600;
+  color: var(--gray-300);
+}
+
+#job_list .name {
+  font-size: 1.5rem;
+  color: Var(--gray-500);
+  font-weight: 600;
+}
+
+#job_list .info {
+  font-size: 0.75rem;
+  color: var(--gray-300);
+  text-transform: uppercase;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#job_list .info span {
+  color: var(--gray-400);
+  font-size: 1rem;
+  text-transform: none;
+}
+
+#job_list .actButton {
+  background-color: transparent;
+  color: var(--gray-600);
+  border: 1px solid var(--gray-600);
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+#job_list .actButton:hover {
+  color: var(--orange-500);
+  border-color: var(--orange-500);
+}
+
+#job_list .status {
+  padding: 0.4rem 2rem;
+  border-radius: 40px;
+  font-size: 0.875rem;
+  padding: 0.75rem;
+  border-radius:40px ;
+  font-size: 0.875rem;
+  width: fit-content;
+  
+}
+
+.finish {
+  color: var(--blue-500);
+  background-color: var(--blue-100);
+}
+
+.stop {
+  color: var(--orange-500);
+  background-color: var(--orange-100);
+}
+
+.pendent{
+  color: var(--red-500);
+  background-color: var(--red-100);
+}
+
+.progress {
+ 
+  color: var(--green-500);
+  background-color: var(--green-100);
+}

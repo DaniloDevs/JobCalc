@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;500;600;700&family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="functions.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/newJob.css" />
+    <link rel="stylesheet" href="../styles/root.css">
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>New Job</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="titulo" class="content">
+        <a href="../index.html">
+          <i data-feather="arrow-left"></i>
+        </a>
+        <span> Adicionar Novo Job</span>
+      </div>
+    </header>
+
+    <main class="content">
+      <section>
+        <h1>Dados do Job</h1>
+        <div id="perguntas">
+          <div id="name" class="box">
+            <span>Nome do Job</span>
+            <input type="text" />
+          </div>
+          <div id="take_hrs">
+            <div class="box">
+              <span
+                >Quantas horas <br />
+                por dia vai dedicar ao Job</span
+              >
+              <input type="text" />
+            </div>
+            <div class="box">
+              <span
+                >Estimativa de <br />
+                horas para esse Job</span
+              >
+              <input type="text" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <article class="content">
+        <img src="../img/Enarning.png" alt="" />
+        <span
+          >Preencha os dados ao lado para <br />
+          ver o valor do projeto
+        </span>
+        <div id="edit">
+          <button>
+            <a href="#">Salvar</a>
+            <i data-feather="trash"></i>
+          </button>
+        </div>
+      </article>
+    </main>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

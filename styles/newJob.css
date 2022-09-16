@@ -1,0 +1,95 @@
+
+
+/* Section 1 */
+
+section {
+  font-family: "IBM Plex Sans", sans-serif;
+ 
+}
+
+section h1 {
+  
+  padding-bottom: 1rem;
+
+  color: var(--gray-400);
+  font-size: 2rem;
+}
+
+section div {
+  color: var(--gray-400);
+  font-size: 1.2rem;
+}
+
+#perguntas {
+  width: 37rem;
+  border-top: 1px solid var(--gray-300);
+}
+
+.box input {
+  height: 2.7rem;
+  font-size: 1.5rem;
+  color: var(--gray-500);
+  border-radius: 5px;
+}
+
+#name {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#name span{
+  padding-bottom: 1rem;
+}
+
+#take_hrs  {
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#take_hrs div{
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#take_hrs span{
+  padding-bottom: 1rem;
+}
+
+#take_hrs input{
+  width: 17.5rem;
+}
+
+/* envio */
+
+article{
+  display: flex;
+  flex-direction: column;
+
+  color: var(--gray-600);
+  font-family: inter, sans-serif;
+  
+  align-items: center;
+  text-align: center;
+
+  background-color: var(--gray-200);
+}
+
+article img{
+  padding-top: 2rem;
+}
+
+article span{
+  margin-top: 2rem;
+}
+
+#edit{
+  padding-top: 2rem ;
+  gap: 2rem;
+  display: flex;
+
+  align-items: center;
+}
